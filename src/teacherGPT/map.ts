@@ -36,3 +36,8 @@ console.log(squaredNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // 5) Agregar Prefijo: Escribe una función que tome un array de palabras y un prefijo, y devuelva un nuevo array donde cada palabra tenga el prefijo agregado.
 
+function prefixString(array: string[], prefix: string) {
+  return array.map((word) => prefix + word);
+}
+
+console.log(prefixString(["peleador", "problematico", "gordos"], "anti"));
